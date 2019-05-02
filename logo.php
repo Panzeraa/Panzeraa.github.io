@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>PF_CV</title>
+	<title>Panzera - Logo</title>
 	<link rel="stylesheet" href="styles.css">
 	<!-- <link rel="icon" type="image/png" href="assets/rdsurvivor_icone.png" /> -->
 
