@@ -2,23 +2,43 @@ body {
 background-color: white;
 /*width : 1500px;*/
 }
-
-
+div.entet {
+   border-top-right-radius: 15px;
+   border-top-left-radius: 15px;
+   background-color: #B8B8B8;
+}
+div.tit1 { 
+   /*border: blue thin solid; */
+   height: 1.7em;
+   line-height: 2.3em; 
+   font-weight: 600;
+   font-family: "Arial";
+   font-size: 50px;
+   text-align: left;
+   /*margin-top: 0.5em;*/
+   margin-bottom: 0.3em;
+   margin-left:50px;
+   margin-right:1.5em;
+    } 
 div.lien { 
    /*border: blue thin solid; */
-   font-weight: 900;
+   font-weight: 600;
    font-family: "Arial";
    font-size: 23px;
-   text-align: center;
+   text-align: left;
    float: left;
-   margin-left:1.5em;
+   display: inline;
+   margin-left: 50px;
    margin-right:1.5em;
    width: 50px; 
     } 
 
 a:visited {
     text-decoration: none;
-    color: #000000;
+    color: black;
+}
+a{
+   color: black;
 }
 
 /*div.lien.ici { 
@@ -30,12 +50,19 @@ a:visited {
 
 div.fond{
    height: 3em;
-   line-height: 3em; 
+   line-height: 2.4em; 
+   text-align: center;
+   border-top-right-radius: 15px;
+   border-top-left-radius: 15px;
    /*border-radius: 5px;*/
    margin-left: auto;
    margin-right: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
    width: 900px; 
-   background-color: #B39B84;
+   /*background-color: #B39B84;*/
+   /*background-color: #B3B3B3;#9D9D9D*/
+   /*background-image:linear-gradient(#7F7F7F, #DBDBDB);*/
    /*position: fixed;*/
 }
 
@@ -54,13 +81,13 @@ img.displayed {
 }
 
  .div_center {
-   height: 1.5em;
-   line-height: 1.5em; 
+   height: 2.5em;
+   line-height: 2.5em; 
    font-size: 25px;
    font-family: "Arial";
    font-weight: bold;
    border-radius: 15px;
-   width : 600px;
+   width : 850px;
    margin-left: auto;
    margin-right: auto;
    /*border : 1px solid black;*/
@@ -68,16 +95,18 @@ img.displayed {
    text-align: center;
  }
   .div_bande {
+   border-radius: 15px;
    width : 900px;
    margin-left: auto;
    margin-right: auto;
-   background-color: #E4DED1;
+   /*background-color: #E4DED1;*/
+   background-color: #DBDBDB;
    text-align: center;
    box-shadow: 1px 1px 12px #555;
  }
  .tit {
-   height: 1.5em;
-   line-height: 1.5em; 
+   height: 2.5em;
+   line-height: 2.5em; 
    /*float:left;*/
    text-align: left;
    margin-left: 20px;
