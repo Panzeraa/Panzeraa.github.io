@@ -5,18 +5,18 @@ background-color: white;
 div.entet {
    border-top-right-radius: 15px;
    border-top-left-radius: 15px;
-   background-color: #B8B8B8;
+   /*background-color: #B6B6B6;*/
 }
 div.tit1 { 
    /*border: blue thin solid; */
-   height: 1.7em;
-   line-height: 2.3em; 
+   height: 1.5em;
+   line-height: 1.5em; 
    font-weight: 600;
    font-family: "Arial";
-   font-size: 50px;
+   font-size: 100px;
    text-align: left;
    /*margin-top: 0.5em;*/
-   margin-bottom: 0.3em;
+   /*margin-bottom: 0.3em;*/
    margin-left:50px;
    margin-right:1.5em;
     } 
@@ -30,7 +30,7 @@ div.lien {
    display: inline;
    margin-left: 50px;
    margin-right:1.5em;
-   width: 50px; 
+   /*width: 50px; */
     } 
 
 a:visited {
@@ -50,19 +50,19 @@ a{
 
 div.fond{
    height: 3em;
-   line-height: 2.4em; 
+   line-height: 3em; 
    text-align: center;
-   border-top-right-radius: 15px;
-   border-top-left-radius: 15px;
+   /*border-top-right-radius: 15px;*/
+   /*border-top-left-radius: 15px;*/
    /*border-radius: 5px;*/
    margin-left: auto;
    margin-right: auto;
-   margin-top: 20px;
+   /*margin-top: 20px;*/
    margin-bottom: 20px;
    width: 900px; 
-   /*background-color: #B39B84;*/
+   background-color: #C3C3C3  ;
    /*background-color: #B3B3B3;#9D9D9D*/
-   /*background-image:linear-gradient(#7F7F7F, #DBDBDB);*/
+   /*background-image:linear-gradient(#AEAEAE, #DBDBDB);*/
    /*position: fixed;*/
 }
 
