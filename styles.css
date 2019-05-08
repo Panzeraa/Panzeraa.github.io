@@ -2,6 +2,34 @@ body {
 background-color: white;
 /*width : 1500px;*/
 }
+
+textarea{
+   background-color: #DBDBDB;
+   border : 0px solid black;
+    width : 750px;
+    resize: none;
+    font-family: "Arial";
+   /*font-size: 20px;*/
+
+}
+div.barrebot{
+   width: 100%;
+   bottom : 0px;
+   left :0px;
+   position: fixed;
+   background-color: red;
+   height: 25px;
+   line-height: 25px;
+   background: rgba(180, 180, 180, 0.8);
+}
+div.barrebot2{
+   width: 100%;
+   height: 50px;
+   line-height: 50px;
+}
+
+
+
 div.entet {
    border-top-right-radius: 15px;
    border-top-left-radius: 15px;
@@ -60,7 +88,11 @@ div.fond{
    /*margin-top: 20px;*/
    margin-bottom: 20px;
    width: 900px; 
-   background-color: #C3C3C3  ;
+   background: rgba(195, 195, 195, 0.9);
+   /*background-color: #C3C3C3  ;*/
+   position: -webkit-sticky;
+   position: sticky;
+   top: 5px;
    /*background-color: #B3B3B3;#9D9D9D*/
    /*background-image:linear-gradient(#AEAEAE, #DBDBDB);*/
    /*position: fixed;*/
@@ -108,8 +140,11 @@ img.displayed {
    height: 2.5em;
    line-height: 2.5em; 
    /*float:left;*/
+   width: 600px;
+   margin-left: auto;
+   margin-right: auto;
    text-align: left;
-   margin-left: 20px;
+   /*margin-left: 20px;*/
 }
 object {
 
