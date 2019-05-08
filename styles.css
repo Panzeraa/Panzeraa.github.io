@@ -1,5 +1,7 @@
 body {
 background-color: white;
+background-image:url(res/image/Portfolio.png);
+background-size: 15%;
 /*width : 1500px;*/
 }
 
@@ -51,8 +53,9 @@ div.tit1 {
 div.lien { 
    /*border: blue thin solid; */
    font-weight: 600;
-   font-family: "Arial";
-   font-size: 23px;
+   font-family: "Century Gothic";
+   /*font-style: italic;*/
+   font-size: 27px;
    text-align: left;
    float: left;
    display: inline;
@@ -135,8 +138,12 @@ img.displayed {
    background-color: #DBDBDB;
    text-align: center;
    box-shadow: 1px 1px 12px #555;
+   border : 2px solid black;
  }
  .tit {
+   font-size: 30px;
+   font-family: "Arial";
+   font-weight: bold;
    height: 2.5em;
    line-height: 2.5em; 
    /*float:left;*/
