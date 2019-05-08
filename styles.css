@@ -45,24 +45,24 @@ div.tit1 {
    font-family: "Arial";
    font-size: 75px;
    text-align: left;
+   margin-top: 0.3em;
+   /*margin-bottom: 0.3em;*/
+   margin-left:50px;
+   margin-right:1.5em;
+} 
+div.tit2 { 
+   /*border: blue thin solid; */
+   height: 2em;
+   line-height: 1em; 
+   font-weight: 600;
+   font-family: "Arial";
+   font-size: 30px;
+   text-align: left;
    /*margin-top: 0.5em;*/
    /*margin-bottom: 0.3em;*/
    margin-left:50px;
    margin-right:1.5em;
-    } 
-    div.tit2 { 
-      /*border: blue thin solid; */
-      height: 2em;
-      line-height: 1em; 
-      font-weight: 600;
-      font-family: "Arial";
-      font-size: 30px;
-      text-align: left;
-      /*margin-top: 0.5em;*/
-      /*margin-bottom: 0.3em;*/
-      margin-left:50px;
-      margin-right:1.5em;
-   } 
+} 
 div.lien { 
    /*border: blue thin solid; */
    font-weight: 600;
