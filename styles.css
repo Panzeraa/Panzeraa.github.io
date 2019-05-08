@@ -43,19 +43,32 @@ div.tit1 {
    line-height: 1.5em; 
    font-weight: 600;
    font-family: "Arial";
-   font-size: 100px;
+   font-size: 75px;
    text-align: left;
    /*margin-top: 0.5em;*/
    /*margin-bottom: 0.3em;*/
    margin-left:50px;
    margin-right:1.5em;
     } 
+    div.tit2 { 
+      /*border: blue thin solid; */
+      height: 2em;
+      line-height: 1em; 
+      font-weight: 600;
+      font-family: "Arial";
+      font-size: 30px;
+      text-align: left;
+      /*margin-top: 0.5em;*/
+      /*margin-bottom: 0.3em;*/
+      margin-left:50px;
+      margin-right:1.5em;
+   } 
 div.lien { 
    /*border: blue thin solid; */
    font-weight: 600;
    font-family: "Century Gothic";
    /*font-style: italic;*/
-   font-size: 27px;
+   font-size: 23px;
    text-align: left;
    float: left;
    display: inline;
@@ -80,8 +93,8 @@ a{
 } */
 
 div.fond{
-   height: 3em;
-   line-height: 3em; 
+   height: 2.7em;
+   line-height: 2.7em; 
    text-align: center;
    /*border-top-right-radius: 15px;*/
    /*border-top-left-radius: 15px;*/
@@ -90,12 +103,13 @@ div.fond{
    margin-right: auto;
    /*margin-top: 20px;*/
    margin-bottom: 20px;
-   width: 900px; 
-   background: rgba(195, 195, 195, 0.9);
+   width: 850px; 
+   border-radius: 10px;
+   background: rgba(195, 195, 195, 0.95);
    /*background-color: #C3C3C3  ;*/
    position: -webkit-sticky;
    position: sticky;
-   top: 5px;
+   top: 15px;
    /*background-color: #B3B3B3;#9D9D9D*/
    /*background-image:linear-gradient(#AEAEAE, #DBDBDB);*/
    /*position: fixed;*/
@@ -141,7 +155,7 @@ img.displayed {
    border : 2px solid black;
  }
  .tit {
-   font-size: 30px;
+   font-size: 25px;
    font-family: "Arial";
    font-weight: bold;
    height: 2.5em;
