@@ -5,12 +5,18 @@
 	<title>Panzera - Projets</title>
 	<link rel="stylesheet" href="styles.css">
 	<link rel="icon" type="image/png" href="res/image/P.png"/>
+	<script src="cIndex.js"></script>
 	<!-- <link rel="icon" type="image/png" href="assets/rdsurvivor_icone.png" /> -->
 
 </head>
 <body>
 	<div class="div_bande" width="1100">
 		<div class='entet'>
+			<!-- <img class="fff"
+			src="res/image/P.png"
+			alt="Red_Dead_Survivor_JavaScript"
+			height="120"
+			/> -->
 			<div class='tit1'>
 				Portfolio
 			</div>
@@ -21,10 +27,10 @@
 			
 		</div>
 		<div class='fond'>
-				<div class='lien'><a style='text-decoration:none' href='index.html'> Index</a></div>
+				<div class='lien'><a style='text-decoration:none' href='index.html'> Projets</a></div>
 				<div class='lien'><a style='text-decoration:none' href='logo.html'> Logo</a></div>
 				<div class='lien'><a style='text-decoration:none' href='cv.html'> CV</a></div>
-				<!-- <div class='lien'><a style='text-decoration:none' href='msc.html'> Msc</a></div> -->
+				<div class='lien'><a style='text-decoration:none' href='msc.html'> Musique</a></div>
 			</div>
 		<div class="div_center">
 			<div class="tit">
@@ -85,10 +91,30 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 			</div>
 			<a href="res/exe/Morpion.exe"><img class="displayed_index"
 			src="res/image/morpion.jpg"
-			alt="Moprion_C#"
+			alt="Morpion_C#"
 			width="600"
 			title="Click to Morpion.exe"
 			></a>
+			<br>
+			<hr width = 75%>
+			<div class="div_center">
+			<div class="tit">
+				Personnage 3D - C#/Sharp GL
+			</div>
+			</div>
+			<form> 
+				<input type="button" id="btnprev" class="btnimg1" value="⬅" onclick="updateImg(1);">
+				<label id="image1">1/3</label>
+				<input type="button" id="btnnext" class="btnimg1" value="➡" onclick="updateImg(2);">
+			</form>
+			<br>
+			<img class="displayed_index"
+			id="imgEr"
+			src="res/image/ER4_1.png"
+			alt="Screen_SharpGL_C#"
+			width="600"
+			title="SharpGL_C#"
+			>
 			<br>
 		</div>
 		</div>

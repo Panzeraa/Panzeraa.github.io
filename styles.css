@@ -5,6 +5,18 @@ background-size: 15%;
 /*width : 1500px;*/
 }
 
+/*.fff{
+   float: left;
+      height: 1.5em;
+   line-height: 1.5em; 
+   font-weight: 600;
+   font-family: "Arial";
+   font-size: 75px;
+   text-align: left;
+   margin-top: 0.3em;
+   margin-left:25px;
+}*/
+
 textarea{
    background-color: #DBDBDB;
    border : 0px solid black;
@@ -74,7 +86,7 @@ div.lien {
    display: inline;
    margin-left: 50px;
    margin-right:1.5em;
-   /*width: 50px; */
+    /*width: 50px; */
     } 
 
 a:visited {
@@ -96,6 +108,7 @@ div.fond{
    height: 2.7em;
    line-height: 2.7em; 
    text-align: center;
+   border : 1px solid black;
    /*border-top-right-radius: 15px;*/
    /*border-top-left-radius: 15px;*/
    /*border-radius: 5px;*/
@@ -104,12 +117,13 @@ div.fond{
    /*margin-top: 20px;*/
    margin-bottom: 20px;
    width: 850px; 
-   border-radius: 10px;
-   background: rgba(195, 195, 195, 0.95);
+   border-radius: 5px;
+   background: rgba(210, 210, 205, 1);
    /*background-color: #C3C3C3  ;*/
    position: -webkit-sticky;
    position: sticky;
-   top: 15px;
+   top: 20px;
+
    /*background-color: #B3B3B3;#9D9D9D*/
    /*background-image:linear-gradient(#AEAEAE, #DBDBDB);*/
    /*position: fixed;*/
@@ -128,6 +142,16 @@ img.displayed {
     margin-right: auto;
     border-radius: 20px;
 }
+input{
+   cursor: pointer;
+}
+
+.btnimg1{
+   border-radius: 10px;
+   background-color: whitesmoke;
+   box-shadow: 1px 1px 3px #555;
+   
+}
 
  .div_center {
    height: 2.5em;
@@ -144,12 +168,13 @@ img.displayed {
    text-align: center;
  }
   .div_bande {
-   border-radius: 15px;
+   border-radius: 40px;
    width : 900px;
    margin-left: auto;
    margin-right: auto;
    /*background-color: #E4DED1;*/
-   background-color: #DBDBDB;
+   background : rgba(235, 235, 235, 1);
+   /*background-color: #DBDBDB;*/
    text-align: center;
    box-shadow: 1px 1px 12px #555;
    border : 2px solid black;
@@ -167,6 +192,7 @@ img.displayed {
    text-align: left;
    /*margin-left: 20px;*/
 }
+
 object {
 
    display: block;
