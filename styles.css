@@ -18,12 +18,14 @@ background-size: 15%;
 }*/
 
 textarea{
-   background-color: #DBDBDB;
+   /*background-color: #DBDBDB;*/
+   background : rgba(235, 235, 235, 1);
    border : 0px solid black;
-    width : 750px;
+   /*border-radius: 5px;*/
+    width : 700px;
     resize: none;
     font-family: "Arial";
-   /*font-size: 20px;*/
+   font-size: 14px;
 
 }
 div.barrebot{
@@ -144,6 +146,8 @@ img.displayed {
 }
 input{
    cursor: pointer;
+   border: 1px;
+   /*font-size: 30px;*/
 }
 
 .btnimg1{
