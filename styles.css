@@ -22,10 +22,11 @@ textarea{
    background : rgba(235, 235, 235, 1);
    border : 0px solid black;
    /*border-radius: 5px;*/
-    width : 700px;
+    width : 600px;
     resize: none;
     font-family: "Arial";
    font-size: 14px;
+   text-align: justify;
 
 }
 div.barrebot{
